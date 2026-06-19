@@ -1,55 +1,86 @@
-Organizador de Estudos Web
+# Organizador de Estudos Web
 
-Descrição
+## Descrição
 
 Sistema desenvolvido para auxiliar estudantes no gerenciamento de tarefas acadêmicas, permitindo o cadastro e organização de atividades de estudo.
 
-Tecnologias Utilizadas
+O projeto foi desenvolvido para a disciplina Projeto Integrador e utiliza banco de dados relacional para armazenamento das informações.
 
-HTML5
-CSS3
-JavaScript
-SQL
-Git
-GitHub
+## Tecnologias Utilizadas
 
-Estrutura do Banco de Dados
+- HTML5
+- CSS3
+- JavaScript
+- SQL
+- MySQL
+- phpMyAdmin
+- Git
+- GitHub
+- XAMPP
 
-Usuario
+## Estrutura do Banco de Dados
 
-id_usuario
-nome
-email
-senha
+### Usuario
 
-Categoria
+- id_usuario
+- nome
+- email
+- senha
 
-id_categoria
-nome_categoria
+### Categoria
 
-Tarefa
+- id_categoria
+- nome_categoria
 
-id_tarefa
-titulo
-descricao
-data_limite
-status
-id_usuario
-id_categoria
+### Tarefa
 
-Relacionamentos
+- id_tarefa
+- titulo
+- descricao
+- data_limite
+- status
+- id_usuario
+- id_categoria
 
-Um usuário pode possuir várias tarefas.
-Uma categoria pode estar associada a várias tarefas.
-Cada tarefa pertence a um usuário e a uma categoria.
+## Relacionamentos
 
-Como Executar
+- Um usuário pode possuir várias tarefas.
+- Uma categoria pode possuir várias tarefas.
+- Cada tarefa pertence a um único usuário.
+- Cada tarefa pertence a uma única categoria.
 
-Baixar ou clonar o repositório.
-Executar o script banco.sql em um SGBD compatível.
-Utilizar as consultas SQL para testar o funcionamento do banco de dados.
+## Operações Implementadas
 
-Autores
+### CREATE
 
-Rahyssa Alves Meireles
-Izaías Aguiar de Lima
+Criação das tabelas do banco de dados.
+
+### INSERT
+
+Inserção de registros.
+
+### SELECT
+
+Consultas de dados.
+
+### UPDATE
+
+Atualização de registros.
+
+### DELETE
+
+Remoção de registros.
+
+## Como Executar
+
+1. Instalar XAMPP.
+2. Iniciar Apache e MySQL.
+3. Acessar phpMyAdmin.
+4. Criar o banco de dados organizacao_estudos.
+5. Executar o script banco.sql.
+6. Executar os comandos SQL para testes.
+
+## Autores
+
+- Rahyssa Alves Meireles
+- Izaías Aguiar de Lima
